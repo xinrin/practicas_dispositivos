@@ -1,0 +1,78 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Jun 18 01:52:04 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000b8
+                   .cinit    romdata   0x0000b8    program   0x000002
+.config_300000_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000c    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000b9      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000c      
+            197 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                        ?   0x000000    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    AGAIN   0x0000b4    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+              DELAY_100MS   0x00000c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+               DELAY_10MS   0x00002c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+               DELAY_1MS2   0x00001c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                DELAY_1mS   0x00003c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                      INC   0x000084    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                     MAIN   0x00006c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                     OTRA   0x000042    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    OTRA2   0x000032    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    OTRA3   0x000022    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    OTRA4   0x000012    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                  PONCERO   0x00005e    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                 SETTINGS   0x00004c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    SIGUE   0x000090    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                   SOLTAR   0x000076    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    TABLA   0x000002    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                        ?   0x000000    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    TABLA   0x000002    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+              DELAY_100MS   0x00000c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    OTRA4   0x000012    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+               DELAY_1MS2   0x00001c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    OTRA3   0x000022    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+               DELAY_10MS   0x00002c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    OTRA2   0x000032    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                DELAY_1mS   0x00003c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                     OTRA   0x000042    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                 SETTINGS   0x00004c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                  PONCERO   0x00005e    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                     MAIN   0x00006c    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                   SOLTAR   0x000076    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                      INC   0x000084    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    SIGUE   0x000090    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+                    AGAIN   0x0000b4    program     static C:\Users\Miguel\MPLABXProjects\6_2_3_contador_reinicio.X\contador_reinicio.asm
+
+

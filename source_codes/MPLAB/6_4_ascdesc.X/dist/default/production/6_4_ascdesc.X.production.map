@@ -1,0 +1,86 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Jun 19 03:11:06 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00010a
+                   .cinit    romdata   0x00010a    program   0x000002
+.config_300000_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/ASCDESC    romdata   0x30000c    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00010b      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000c      
+            279 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                        ?   0x000000    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    ATRAS   0x0000e6    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+              DELAY_100MS   0x00000c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+               DELAY_10MS   0x00002c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+               DELAY_1MS2   0x00001c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                DELAY_1mS   0x00003c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                      INC   0x0000aa    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    INC_L   0x0000b6    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                     MAIN   0x000070    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                     OTRA   0x000042    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    OTRA2   0x000032    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    OTRA3   0x000022    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    OTRA4   0x000012    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                  PONCERO   0x000062    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                 PREGUNTA   0x00007a    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                PREGUNTA2   0x000084    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                 SETTINGS   0x00004c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    SIGUE   0x0000c2    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                   SOLTAR   0x00008e    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                  SOLTAR2   0x00009c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    TABLA   0x000002    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                        ?   0x000000    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    TABLA   0x000002    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+              DELAY_100MS   0x00000c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    OTRA4   0x000012    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+               DELAY_1MS2   0x00001c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    OTRA3   0x000022    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+               DELAY_10MS   0x00002c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    OTRA2   0x000032    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                DELAY_1mS   0x00003c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                     OTRA   0x000042    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                 SETTINGS   0x00004c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                  PONCERO   0x000062    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                     MAIN   0x000070    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                 PREGUNTA   0x00007a    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                PREGUNTA2   0x000084    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                   SOLTAR   0x00008e    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                  SOLTAR2   0x00009c    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                      INC   0x0000aa    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    INC_L   0x0000b6    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    SIGUE   0x0000c2    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+                    ATRAS   0x0000e6    program     static C:\Users\Miguel\MPLABXProjects\6_4_ascdesc.X\ascdesc.asm
+
+
